@@ -9,12 +9,14 @@
 
   <name>etiya-ms</name>
   <url>http://maven.apache.org</url>
+  <modules>
+    <module>node-configuration</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
-    <modules>node-configuration</modules>
   </properties>
 
   <dependencies>
